@@ -1,8 +1,6 @@
 // hello.js
-// Project: Code Tracker - VS Code → GitHub → n8n
-
 function trackCode() {
-  const code = "console.log('Hello, Sandhiya!');";
+  const code = "console.log('Hello, Sandhiya - updated!');";
   const lines = code.split('\n').length;
   const points = lines * 10;
 
@@ -10,5 +8,4 @@ function trackCode() {
   console.log("Total Lines:", lines);
   console.log("Points Earned:", points);
 }
-
 trackCode();
